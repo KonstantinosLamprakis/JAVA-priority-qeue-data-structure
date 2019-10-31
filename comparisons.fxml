@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="275.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Comparisons">
+    <children>
+        <MenuBar fx:id="menuBar" />
+      <HBox maxHeight="275.0" minHeight="275.0" prefHeight="275.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Algorithm 1" />
+                    <TextArea fx:id="textArea1" editable="false" maxHeight="275.0" maxWidth="200.0" minHeight="275.0" minWidth="200.0" prefHeight="275.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Algorithm 2 (with Sort)" />
+                  <TextArea fx:id="textArea2" editable="false" maxHeight="275.0" maxWidth="200.0" minHeight="275.0" minWidth="200.0" prefHeight="275.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+    </children>
+</VBox>
